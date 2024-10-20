@@ -1,0 +1,9 @@
+@media only screen and (max-width: 365px) {
+    .container h1{
+        font-size: large;
+        text-align: center;
+    }
+    .container p{
+        text-align: center;
+    }
+  }

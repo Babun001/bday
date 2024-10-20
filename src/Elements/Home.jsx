@@ -19,8 +19,11 @@ export default function Home() {
             }}>
                 <h1>Hi! Cutie</h1>
             </div>
-            <div className='buttomTrigger'>
-                <Link to="/birthday" className='linktobday'>Click here Rupsa!</Link>
+            <div className='buttomTrigger' style={{
+                display:'flex',
+                justifyContent:'center'
+            }}>
+                <h1><Link to="/birthday" className='linktobday'>Click here Rupsa!</Link></h1>
             </div>
 
         </div>
